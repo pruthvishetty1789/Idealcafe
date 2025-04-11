@@ -1,0 +1,76 @@
+/* CafeNavbar.css */
+/* CafeNavbar.css */
+
+.navbar {
+  padding-top: 0.3rem !important;
+  background-color: #fffdf7 !important;
+  font-family: "Segoe UI", sans-serif;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding-bottom: 0.3rem !important;
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+  padding: 0;
+  margin-right: 1rem;
+  font-weight: 700;
+
+  color: #cc3333 !important;
+}
+
+.nav-link {
+  padding: 0.3rem 0.75rem !important;
+  font-size: 0.95rem;
+  color: #333 !important;
+  transition: color 0.3s ease;
+}
+
+.form-control {
+  height: 32px;
+  font-size: 0.9rem;
+}
+
+.btn-outline-success {
+  padding: 0 0.75rem;
+  height: 34px;
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.5rem;
+  border: none;
+}
+
+.nav-link:hover {
+  color: #cc3333 !important;
+}
+
+.form-control {
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  border: 1px solid #ddd;
+}
+
+.btn-outline-success {
+  border-radius: 20px;
+  padding: 0.4rem 1.2rem;
+  border-color: #cc3333;
+  color: #cc3333;
+  transition: 0.3s ease;
+}
+
+.btn-outline-success:hover {
+  background-color: #cc3333;
+  color: white;
+}
+
+.navbar .fa-shopping-cart {
+  color: #cc3333;
+  transition: transform 0.2s;
+}
+
+.navbar .fa-shopping-cart:hover {
+  transform: scale(1.2);
+}

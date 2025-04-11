@@ -1,0 +1,45 @@
+/* Home.css */
+
+.carousel-item img {
+  height: 80vh; /* Adjust to 100vh if you want full screen */
+  object-fit: cover;
+  width: 100%;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 50vh;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+}
+
+.card {
+  transition: transform 0.3s ease;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
+.container {
+  padding-bottom: 4rem;
+}
